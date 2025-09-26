@@ -6,51 +6,118 @@ export default function Home() {
     const projects = [
         {
             id: 1,
+            title: 'Ebda3 Gate',
+            image: '/Images/Ebda3Gate1.jpg',  hight : '350px'
+        },
+        {
+            id: 2,
+            title: 'Ebda3 Gate',
+            image: '/Images/Ebda3Gate2.jpg',  hight : '350px'
+        },
+        {
+            id: 3,
+            title: 'Ebda3 Gate',
+            image: '/Images/Ebda3Gate3.jpg',  hight : '350px'
+        },
+        {
+            id: 4,
+            title: 'UNI Line ',
+            image: '/Images/ULine4.jpg',
+            hight : '350px'
+
+        },
+        {
+            id: 5,
+            title: 'UNI Line ',
+            image: '/Images/ULine2.jpg' ,
+            hight : '350px'
+        },
+        {
+            id: 6,
+            title: 'UNI Line ',
+            image: '/Images/ULine3.jpg',  hight : '350px'
+        },
+
+        {
+            id: 7,
             title: 'UNI Line ',
             image: '/Images/ULine.jpg',
             hight : '350px'
 
         },
         {
-            id: 2,
+            id: 8,
             title: 'UNI Line ',
-            image: '/Images/ULine2.jpg' ,
+            image: '/Images/ULine5.png' ,
             hight : '350px'
         },
         {
-            id: 3,
+            id: 9,
             title: 'UNI Line ',
-            image: '/Images/ULine3.jpg',  hight : '350px'
+            image: '/Images/ULine6.jpg',  hight : '350px'
         },
         {
-            id: 4,
-            title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate1.jpg',  hight : '350px'
+            id: 10,
+            title: 'Smash In ',
+            image: '/Images/Smash1.jpg',
+            hight : '450px'
+
         },
         {
-            id: 5,
-            title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate2.jpg',  hight : '350px'
+            id: 11,
+            title: 'Smash In ',
+            image: '/Images/Smash2.jpg',
+            hight : '400px'
         },
         {
-            id: 6,
-            title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate3.jpg',  hight : '350px'
+            id: 12,
+            title: ' Grand Shawrma ',
+            image: '/Images/Grand.jpg',  hight : '450px'
         },
         {
-            id: 7,
+            id: 13,
+            title: 'Couch Ali ',
+            image: '/Images/ALI1.png',  hight : '650px'
+        },
+        {
+            id: 14,
+            title: 'Couch Ali ',
+            image: '/Images/ALI2.png',  hight : '650px'
+        },
+        {
+            id: 15,
+            title: ' Couch Ali ',
+            image: '/Images/ALI3.png',  hight : '650px'
+        },
+        {
+            id: 16,
             title: 'Couch Khaled ',
             image: '/Images/Khaled.jpg',  hight : '650px'
         },
         {
-            id: 8,
+            id: 17,
             title: 'Couch Khaled ',
-            image: '/Images/Khaled3.jpg',  hight : '650px'
+            image: '/Images/Khaled3.jpg',  hight : '600px'
         },
         {
-            id: 9,
+            id: 18,
             title: ' Couch Khaled ',
             image: '/Images/Khaled2.png',  hight : '650px'
+        },
+        {
+            id: 19,
+            title: ' EVOLVE ',
+            image: '/Images/EVOLVE.png',  hight : '350px'
+        },
+        {
+            id: 20,
+            title: ' PLAN88 ',
+            image: '/Images/Hiring.jpg',  hight : '350px'
+        },
+        {
+            id: 21,
+            title: ' Eldawly ',
+            image: '/Images/Dawly.jpg',  hight : '350px'
         }
     ];
   return (
