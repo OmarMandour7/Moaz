@@ -8,49 +8,49 @@ export default function Home() {
             id: 1,
             title: 'UNI Line ',
             image: '/Images/ULine.jpg',
-            hight : '500px'
+            hight : '350px'
 
         },
         {
             id: 2,
             title: 'UNI Line ',
             image: '/Images/ULine2.jpg' ,
-            hight : '500px'
+            hight : '350px'
         },
         {
             id: 3,
             title: 'UNI Line ',
-            image: '/Images/ULine3.jpg',  hight : '500px'
+            image: '/Images/ULine3.jpg',  hight : '350px'
         },
         {
             id: 4,
             title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate1.jpg',  hight : '500px'
+            image: '/Images/Ebda3Gate1.jpg',  hight : '350px'
         },
         {
             id: 5,
             title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate2.jpg',  hight : '500px'
+            image: '/Images/Ebda3Gate2.jpg',  hight : '350px'
         },
         {
             id: 6,
             title: 'Ebda3 Gate',
-            image: '/Images/Ebda3Gate3.jpg',  hight : '500px'
+            image: '/Images/Ebda3Gate3.jpg',  hight : '350px'
         },
         {
             id: 7,
             title: 'Couch Khaled ',
-            image: '/Images/Khaled.jpg',  hight : '800px'
+            image: '/Images/Khaled.jpg',  hight : '650px'
         },
         {
             id: 8,
             title: 'Couch Khaled ',
-            image: '/Images/Khaled.jpg',  hight : '800px'
+            image: '/Images/Khaled3.jpg',  hight : '650px'
         },
         {
             id: 9,
             title: ' Couch Khaled ',
-            image: '/Images/Khaled.jpg',  hight : '800px'
+            image: '/Images/Khaled2.png',  hight : '650px'
         }
     ];
   return (
