@@ -33,12 +33,12 @@ const NavBar = () => {
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className="text-sm sm:text-base lg:text-lg font-medium hover:text-blue-600 transition-colors">
+                        <Link href="#about" className="text-sm sm:text-base lg:text-lg font-medium hover:text-blue-600 transition-colors">
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link href="#" className="text-sm sm:text-base lg:text-lg font-medium hover:text-blue-600 transition-colors">
+                        <Link href="#contact" className="text-sm sm:text-base lg:text-lg font-medium hover:text-blue-600 transition-colors">
                             Contact
                         </Link>
                     </li>
@@ -78,14 +78,14 @@ const NavBar = () => {
                             Project
                         </Link>
                         <Link
-                            href="#"
+                            href="#About"
                             onClick={toggleMenu}
                             className="block px-4 py-3 text-sm sm:text-base text-gray-800 hover:bg-gray-100 transition-colors font-mono"
                         >
                             About
                         </Link>
                         <Link
-                            href="#"
+                            href="#contact"
                             onClick={toggleMenu}
                             className="block px-4 py-3 text-sm sm:text-base text-gray-800 hover:bg-gray-100 transition-colors font-mono"
                         >

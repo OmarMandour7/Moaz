@@ -11,8 +11,8 @@ const About = () => {
             <div className="max-w-7xl mx-auto">
                 {/* Section Header */}
                 <div className="text-center mb-12 sm:mb-16">
-                    <p className="text-gray-400 text-sm sm:text-base mb-2 font-mono">Get To Know</p>
-                    <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white font-mono">
+                    <p className="text-gray-400 text-3xl sm:text-base mb-2 font-mono">Get To Know</p>
+                    <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white font-mono">
                         About Me
                     </h1>
                 </div>
@@ -36,6 +36,24 @@ const About = () => {
                     <div className="flex-1 max-w-2xl">
                         {/* Cards Container */}
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+
+                            {/* Education Card */}
+
+                            <div className="bg-transparent border border-gray-700 hover:border-fuchsia-700 rounded-2xl p-6 text-center hover:bg-gray-750 transition-colors duration-300">
+                                <div className="w-12 h-12 mx-auto mb-4">
+                                    <MdOutlineCastForEducation size={50} />
+
+                                </div>
+                                <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 font-mono">
+                                    Education
+                                </h3>
+                                <p className="text-gray-300 text-sm sm:text-base">
+                                    <span className="font-bold">Port Said University</span><br />
+                                    B.Sc. in Production Engineering
+                                    <br />
+                                    Second Year (2023 – 2027)
+                                </p>
+                            </div>
                             {/* Experience Card */}
                             <div className="bg-transparent border border-gray-700 hover:border-fuchsia-700 rounded-2xl p-6 text-center hover:bg-gray-750 transition-colors duration-300">
                                 <div className="w-12 h-12 mx-auto mb-4">
@@ -52,32 +70,12 @@ const About = () => {
                                 </p>
                             </div>
 
-                            {/* Education Card */}
-                            <div className="bg-transparent border border-gray-700 hover:border-fuchsia-700 rounded-2xl p-6 text-center hover:bg-gray-750 transition-colors duration-300">
-                                <div className="w-12 h-12 mx-auto mb-4">
-                                    <MdOutlineCastForEducation size={50} />
-
-                                </div>
-                                <h3 className="text-lg sm:text-xl font-semibold text-white mb-3 font-mono">
-                                    Education
-                                </h3>
-                                <p className="text-gray-300 text-sm sm:text-base">
-                                    <span className="font-bold">IIT Gandhinagar</span><br />
-                                    B.Tech - M.Tech (Dual Degree)<br />
-                                    CSE '23-28
-                                </p>
-                            </div>
                         </div>
 
                         {/* Text Container */}
                         <div className="bg-gray-700 border border-gray-700  rounded-2xl p-6 lg:p-8">
                             <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed font-mono">
-                                I'm a sophomore at IIT Gandhinagar and the Design Coordinator
-                                of Blithchron, IITGN's cultural fest. With six years of
-                                experience in graphic design and video editing, I am proficient
-                                in Adobe Photoshop, Illustrator, Premiere Pro, and After Effects,
-                                with skills in basic 3D modeling using Blender. I thrive in
-                                collaborative projects.
+                                I am a second-year undergraduate student in Production Engineering with a strong passion for graphic design. Over the past two years, I have gained extensive hands-on experience working with real clients on diverse design projects. I am highly skilled in Adobe Photoshop and Adobe Illustrator, and I enjoy turning creative concepts into professional visual outputs. My journey so far has allowed me to build a growing body of work, which I am now curating into a professional portfolio to showcase both my technical expertise and creative approach.
                             </p>
                         </div>
                     </div>
