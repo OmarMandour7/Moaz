@@ -15,8 +15,8 @@ const ContactMe = () => {
         },
         {
             id: 2,
-            icon: '/images/behance.png',
-            alt: 'LinkedIn',
+            icon: '/images/behance-.png',
+            alt: 'behance',
             text: 'Connect with me on Behance',
             href: 'https://www.behance.net/moaz_ali'
         },
@@ -43,31 +43,36 @@ const ContactMe = () => {
                 </div>
 
                 {/* Contact Info */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
-                    {contactInfo.map((contact) => (
-                        <Link
-                            key={contact.id}
-                            href={contact.href}
-                            className="group"
-                            target='_blank'
-                        >
-                            <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:bg-gray-750 hover:border-gray-600 transition-all duration-300 group-hover:scale-105">
-                                <div className="w-12 h-12 mx-auto mb-4">
-                                    <Image
-                                        src={contact.icon}
-                                        alt={contact.alt}
-                                        width={48}
-                                        height={48}
-                                        className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
-                                    />
+                <div className="flex justify-center w-full mb-12">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mx-auto">
+                        {contactInfo.map((contact) => (
+                            <Link
+                                key={contact.id}
+                                href={contact.href}
+                                className="group"
+                                target="_blank"
+                            >
+                                <div className="flex border justify-between items-center border-gray-700 rounded-2xl p-3 hover:bg-gray-750 hover:border-gray-600 transition-all duration-300 group-hover:scale-105">
+                                    <div className="w-12 h-12 ">
+                                        <Image
+                                            src={contact.icon}
+                                            alt={contact.alt}
+                                            width={48}
+                                            height={48}
+                                            className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-300"
+                                        />
+                                    </div>
+                                    <div className="flex flex-col justify-center">
+                                        <p className="text-gray-300 text-sm sm:text-base font-mono group-hover:text-white transition-colors duration-300 mx-4">
+                                            {contact.text}
+                                        </p>
+                                    </div>
                                 </div>
-                                <p className="text-gray-300 text-sm sm:text-base font-mono group-hover:text-white transition-colors duration-300">
-                                    {contact.text}
-                                </p>
-                            </div>
-                        </Link>
-                    ))}
+                            </Link>
+                        ))}
+                    </div>
                 </div>
+
 
                 {/* Logo */}
                 <div className="flex justify-center">

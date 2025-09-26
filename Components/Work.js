@@ -20,9 +20,9 @@ const Work = () => {
         },
         {
             id: 3,
-            title: 'Falling - Light',
-            image: '/Images/ali.png',
-            link: '/Assets/Falling.png'
+            title: 'Couch Khaled ',
+            image: '/Images/Khaled.png',
+            link: '/Images/Khaled.png'
         }
     ];
 
@@ -43,13 +43,13 @@ const Work = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 mb-12">
                     {projects.map((project) => (
                         <Link key={project.id} href={project.link} className="group">
-                            <div className="relative overflow-hidden rounded-2xl  border  hover:border-gray-600 transition-all duration-300">
-                                <div className="relative h-64 sm:h-72 lg:h-80">
+                            <div className="relative overflow-hidden rounded-2xl    hover:border-gray-600 transition-all duration-300">
+                                <div className="relative h-64 sm:h-72 lg:h-96">
                                     <Image
                                         src={`${project.image}`}
                                         alt={project.title}
                                         fill
-                                        className="object-contain transition-transform duration-300 group-hover:scale-105"
+                                        className=" transition-transform duration-300 group-hover:scale-105"
                                     />
                                     {/* Overlay */}<div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center">
                                     <div className="text-center bg-gradient-to-r from-black to-white bg-clip-text text-transparent p-4 rounded-lg">

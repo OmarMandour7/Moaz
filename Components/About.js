@@ -73,7 +73,7 @@ const About = () => {
                         </div>
 
                         {/* Text Container */}
-                        <div className="bg-gray-700 border border-gray-700  rounded-2xl p-6 lg:p-8">
+                        <div className="bg-gray-900 border-gray-700  rounded-2xl p-6 lg:p-8">
                             <p className="text-gray-300 text-sm sm:text-base lg:text-lg leading-relaxed font-mono">
                                 I am a second-year undergraduate student in Production Engineering with a strong passion for graphic design. Over the past two years, I have gained extensive hands-on experience working with real clients on diverse design projects. I am highly skilled in Adobe Photoshop and Adobe Illustrator, and I enjoy turning creative concepts into professional visual outputs. My journey so far has allowed me to build a growing body of work, which I am now curating into a professional portfolio to showcase both my technical expertise and creative approach.
                             </p>
