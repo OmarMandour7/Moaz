@@ -123,7 +123,7 @@ export default function Home() {
         {
             id: 22,
             title: ' Double Dare ',
-            image: '/Images/Double.png',  hight : '380px'
+            image: '/Images/Double.png',  hight : '320px'
         }
         ,
         {
@@ -135,7 +135,7 @@ export default function Home() {
         {
             id: 24,
             title: ' Twist ',
-            image: '/Images/Twist.png',  hight : '380px'
+            image: '/Images/Twist.png',  hight : '320px'
         }
     ];
   return (
