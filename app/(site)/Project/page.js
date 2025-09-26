@@ -119,6 +119,24 @@ export default function Home() {
             title: ' Eldawly ',
             image: '/Images/Dawly.jpg',  hight : '350px'
         }
+        ,
+        {
+            id: 22,
+            title: ' Double Dare ',
+            image: '/Images/Double.png',  hight : '380px'
+        }
+        ,
+        {
+            id: 23,
+            title: ' Perfume ',
+            image: '/Images/Pefume.jpg',  hight : '300px'
+        }
+        ,
+        {
+            id: 24,
+            title: ' Twist ',
+            image: '/Images/Twist.png',  hight : '380px'
+        }
     ];
   return (
       <section id="projects" className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 ">
