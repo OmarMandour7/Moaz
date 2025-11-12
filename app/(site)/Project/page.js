@@ -8,19 +8,19 @@ export default function Home() {
             id: 1,
             title: 'Eng/Mohamed Elwan',
             image: '/Images/Elwan1.jpg',
-            height: '250px'
+            height: '230px'
         },
         {
             id: 2,
             title: 'Eng/Mohamed Elwan',
             image: '/Images/Elwan2.jpg',
-            height: '250px'
+            height: '230px'
         },
         {
             id: 3,
             title: 'Eng/Mohamed Elwan',
             image: '/Images/Elwan3.jpg',
-            height: '250px'
+            height: '230px'
         },
         {
             id: 4,
