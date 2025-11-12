@@ -97,7 +97,7 @@ export default function Home() {
         {
             id: 16,
             title: 'UNI Line ',
-            image: '/Images/ULine4.jpg',
+            image: '/Images/ULine66.jpg',
             height: '350px'
         },
         {
@@ -109,7 +109,7 @@ export default function Home() {
         {
             id: 18,
             title: 'UNI Line ',
-            image: '/Images/ULine3.jpg',
+            image: '/Images/ULine4.jpg',
             height: '350px'
         },
         {
@@ -127,13 +127,13 @@ export default function Home() {
         {
             id: 21,
             title: 'UNI Line ',
-            image: '/Images/ULine66.jpg',
+            image: '/Images/ULine3.jpg',
             height: '350px'
         },
         {
             id: 22,
             title: 'Smash In ',
-            image: '/Images/Smash1.jpg',
+            image: '/Images/Smash3.jpg',
             height: '450px'
         },
         {
@@ -145,13 +145,13 @@ export default function Home() {
         {
             id: 24,
             title: 'Smash In ',
-            image: '/Images/Smash3.jpg',
+            image: '/Images/Smash1.jpg',
             height: '450px'
         },
         {
             id: 25,
             title: 'Couch Ali ',
-            image: '/Images/ALI1.png',
+            image: '/Images/ALI3.png',
             height: '650px'
         },
         {
@@ -163,7 +163,7 @@ export default function Home() {
         {
             id: 27,
             title: ' Couch Ali ',
-            image: '/Images/ALI3.png',
+            image: '/Images/ALI1.png',
             height: '650px'
         },
         {
