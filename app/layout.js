@@ -19,7 +19,7 @@ export const metadata = {
         siteName: "Moaz Ali Portfolio",
         images: [
             {
-                url: "https://moaz-portfolio1.netlify.app/Logo.png",
+                url: "https://moaz-portfolio1.netlify.app/Images/Logo.png",
                 width: 1200,
                 height: 630,
                 alt: "Moaz Ali Graphic Designer Portfolio Preview",
